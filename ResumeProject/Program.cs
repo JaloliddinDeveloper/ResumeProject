@@ -29,7 +29,6 @@ class Program
         );
 
         Console.WriteLine("Bot ishlayapti...");
-        Console.ReadLine();
     }
 
     private static async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
